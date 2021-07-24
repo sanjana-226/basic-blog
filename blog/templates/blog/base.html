@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Nanum+Gothic&family=Open+Sans&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    <title>blog</title>
+    <title>Blog</title>
 </head>
 
 <body>
@@ -21,7 +21,8 @@
             {% include './icons/file-earmark-plus.svg' %}
         </a>
             {% endif %}
-            <h1><a href="/">Blog</a></h1>
+            <h1><img src="{% static 'images/logo3.png' %}">
+            <a href="/">Blog</a></h1>
         </div>
     </header>
     <main class="container">
